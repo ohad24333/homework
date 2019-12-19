@@ -1,0 +1,19 @@
+ int maalot = Convert.ToInt32(Console.ReadLine());
+            switch(maalot)
+            {
+                case 40:
+                     Console.WriteLine("verry hotttt");
+                    break;
+                case 15:
+                    Console.WriteLine("nice");
+                    break;
+                case 0:
+
+                    Console.WriteLine("cold");
+                    break;
+                case -5:
+                    Console.WriteLine("Freezing");
+                    break;
+
+            }
+            Console.ReadLine();
