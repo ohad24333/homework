@@ -1,0 +1,17 @@
+            int class100 = 0;
+            int class30 = 0;
+            int class10 = 0;
+            Console.WriteLine("enter number of student");
+            int student = Convert.ToInt32(Console.ReadLine());
+            class100 = student / 100;
+            student = student % 100;
+            class30 = student / 30;
+            student = student % 30;
+            class10 = student / 10;
+            student = student % 10;
+
+            Console.WriteLine($"Number of 100 student class is: {class100}");
+            Console.WriteLine($"Number of 30 student class is: {class30}");
+            Console.WriteLine($"Number of 10 student class is: {class10}");
+            Console.WriteLine($"Number of dismiss student is: {student}");
+            Console.ReadLine();
