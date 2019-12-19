@@ -1,0 +1,20 @@
+            int m = 2;
+            Console.WriteLine("Enter A Namber");
+            int mispar = Convert.ToInt32(Console.ReadLine());
+            while (m < mispar)
+            {
+                while (mispar % m != 0 && m < mispar)
+                {
+                    m++;
+
+                }
+                if (m != mispar)
+                {
+                    Console.WriteLine("The number is not esroni");
+                    Console.WriteLine("Enter another number");
+                    mispar = Convert.ToInt32(Console.ReadLine());
+                    m = 2;
+                }
+            }
+            Console.WriteLine("mispar esroni");
+            Console.ReadLine();
